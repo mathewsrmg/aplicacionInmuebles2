@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPage2"
+    android:background="@drawable/wall">
+
+    <TextView
+        android:id="@+id/Agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00EFEBEB"
+        android:text="AGREGAR CASA"
+        android:textColor="#F4F4F4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/etId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00EFEBEB"
+        android:text="Identificacion del apartamento:"
+        android:textColor="#F4F4F4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Agregar"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/IdId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#F4ECEC"
+        android:textColorHighlight="#F4ECEC"
+        android:textColorHint="#F4ECEC"
+        android:textColorLink="#F4ECEC"
+        android:background="@drawable/sweet_borde_editext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etId"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/IdDueno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00EFEBEB"
+        android:text="Nombre del dueño:"
+        android:textColor="#F4F4F4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IdId"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/etDueno"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#F4ECEC"
+        android:textColorHighlight="#F4ECEC"
+        android:textColorHint="#F4ECEC"
+        android:textColorLink="#F4ECEC"
+        android:background="@drawable/sweet_borde_editext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IdDueno"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/IdPersonas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00EFEBEB"
+        android:text="Cuantas personas viven:"
+        android:textColor="#F4F4F4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etDueno"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/etPersonas"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#F4ECEC"
+        android:textColorHighlight="#F4ECEC"
+        android:textColorHint="#F4ECEC"
+        android:textColorLink="#F4ECEC"
+        android:background="@drawable/sweet_borde_editext"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IdPersonas"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/IdValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00EFEBEB"
+        android:text="Valor del hogar:"
+        android:textColor="#F4F4F4"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPersonas"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="#F4ECEC"
+        android:textColorHighlight="#F4ECEC"
+        android:textColorHint="#F4ECEC"
+        android:textColorLink="#F4ECEC"
+        android:background="@drawable/sweet_borde_editext"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IdValor"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Enviar"
+        app:backgroundTint="#411F7E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etValor"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        app:backgroundTint="#182DA1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEnviar"
+        app:layout_constraintVertical_bias="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

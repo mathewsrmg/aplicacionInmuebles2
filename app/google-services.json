@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179944152394",
+    "project_id": "baseaplicacionmuebles",
+    "storage_bucket": "baseaplicacionmuebles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179944152394:android:fb0ac5481a415635c8f5b3",
+        "android_client_info": {
+          "package_name": "com.example.aplicacioninmuebles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179944152394-lspmjn25fgfs7drudkb4v4213mojlgti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUYrmqtXtufxwDIlrxhVIb-u9NeleCX0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179944152394-lspmjn25fgfs7drudkb4v4213mojlgti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
